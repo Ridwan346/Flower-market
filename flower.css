@@ -1,0 +1,32 @@
+/* nav bar*/
+.content{
+    max-width: 1280px;
+    margin: auto;
+}
+.nav_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left{
+    display: flex;
+    gap: 10px;
+    
+}
+.nav_left li{
+   list-style: none;
+}
+/*benar section*/
+.benar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+span{
+    color: #E95A08;
+}
+/*card section*/
+.card-title{
+    text-align: center;
+}
