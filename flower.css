@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    padding: 0;
+  box-sizing: border-box;
 }
 /* nav bar*/
 .content{
@@ -19,6 +21,15 @@
 .nav_left li{
    list-style: none;
 }
+/*mobile responsive*/
+@media(max-width:768px){
+    .nav_left li{
+        display: none;
+    }
+    .nav_left li:nth-child(4){
+        display: block;
+    }
+}
 /*benar section*/
 .benar{
     display: flex;
@@ -28,6 +39,13 @@
 }
 span{
     color: #E95A08;
+}
+/*mobile responsive*/
+@media(max-width:768px){
+    .benar{
+        flex-direction: column-reverse;
+
+    }
 }
 /*card section*/
 .card-title{
@@ -55,6 +73,17 @@ button{
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
 }
+/*mobile responsive*/
+@media(max-width:768px){
+    .main-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .card:nth-child(7),
+    .card:nth-child(8){
+        display: none;
+    }
+}
+ 
 /*chalange part*/
 .man-flower{
     display: flex;
@@ -93,6 +122,22 @@ button{
 .img-continer{
     position: relative;
 }
+/*mobile responsive*/
+@media(max-width:768px){
+  .imgb{
+    display: none;
+  }
+  .man-flower{
+    flex-direction: column;
+  }
+  .man{
+    margin-left: 40px;
+  }
+  .man-right h1{
+    text-align: center;
+  }
+}
+  
 /*last content*/
 .last-div{
     text-align: center;
@@ -117,6 +162,7 @@ button{
     background-image:url("./assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .back-one12{
     height: 50%;
@@ -144,6 +190,25 @@ button{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/*mobile responsive*/
+@media(max-width:768px){
+  .back-img-cont{
+    flex-direction: column;
+  }
+ .back-one{
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+  }
+  .back-two{
+    flex: none;
+    height: 200px;
+    width: 70%;
+    margin: 20px;
+    margin-left: 60px;
+  }
+}
+  
 /*serch bar*/
 .secrh-div{
     height: 400px;
@@ -174,3 +239,15 @@ button{
     margin-bottom: 20px;
     list-style: none;
 }
+
+/*mobile responsive*/
+@media(max-width:768px){
+  .footer{
+    flex-direction: column;
+}
+.footer-div2{
+    flex-direction: column;
+    margin: 30px auto;
+    width: 100%;
+}
+}   
