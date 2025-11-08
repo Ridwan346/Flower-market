@@ -30,3 +30,63 @@ span{
 .card-title{
     text-align: center;
 }
+button{
+    background-color: #E95A08;
+    border: none;
+    color: aliceblue;
+     padding-top:10px ;
+    padding-bottom: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.card h3{
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+/*chalange part*/
+.man-flower{
+    display: flex;
+    gap: 30px;
+}
+.man-right{
+    display: flex;
+    flex-direction: column;
+    
+}
+.man-right ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 50px;
+  
+
+}
+.Chalange{
+    margin-top: 120px;
+}
+.li{
+    font-size: 20px;
+    font-weight: 70px;
+}
+.man-right h1 {
+    font-size: 50px;
+}
+.imgb{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -100px;
+    right: -90px;
+}
+.img-continer{
+    position: relative;
+}
