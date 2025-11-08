@@ -126,6 +126,7 @@ button{
     justify-content: center;
     background-image: url("./assets/deal-ana.png");
     border-radius: 20px;
+    margin-left: 70px;
 }
 .back-one13{
     height: 50%;
@@ -134,6 +135,7 @@ button{
     justify-content: center;
     background-image: url("./assets/deal-bloom.png");
     border-radius: 20px;
+    margin-left: 70px;
 }
 .last{
     margin-top: 40px;
@@ -141,4 +143,34 @@ button{
 .last p{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+/*serch bar*/
+.secrh-div{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./assets/news-letter-bg.png");
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.secrh-div input{
+    padding: 10px 50px;
+}
+/*footer section*/
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.footer-div2{
+    display: flex;
+    width: 30%;
+}
+.footer-div1{
+    width: 30%;
+}
+.ul li {
+    margin-bottom: 20px;
+    list-style: none;
 }
